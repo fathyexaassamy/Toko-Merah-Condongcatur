@@ -328,13 +328,12 @@ body {
   text-decoration: underline;
 }
 
-.map-card img {
+.map-card iframe {
   display: block;
   width: 100%;
-  max-height: 280px;
-  aspect-ratio: 1.9;
+  height: 450px;
+  border: 0;
   border-radius: 6px;
-  object-fit: cover;
 }
 
 .location-bottom {
@@ -506,8 +505,8 @@ body {
     padding: 12px;
   }
 
-  .map-card img {
-    aspect-ratio: 1.5;
+  .map-card iframe {
+  height: 300px;
   }
 
   .location-bottom {
